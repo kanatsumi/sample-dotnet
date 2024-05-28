@@ -40,13 +40,11 @@ namespace ClinicBookingSystem_BusinessObject.Entities
 
         //Role
 
-        public int RoleId { get; set; }
         public Role Role { get; set; }
         
         //Appointment
         public ICollection<Appointment> Appointments { get; set; }
         //Salary
-        public int SalaryId { get; set; }
         public Salary Salary { get; set; }
         //Specification
         public ICollection<Specification> Specifications { get; set; }

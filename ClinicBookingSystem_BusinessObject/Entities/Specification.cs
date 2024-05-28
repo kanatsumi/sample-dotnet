@@ -13,7 +13,6 @@ public class Specification
     public string AwaredAt { get; set; }
     
     //User
-    public int UserId { get; set; }
     public User User { get; set; }
     
     //Service 
