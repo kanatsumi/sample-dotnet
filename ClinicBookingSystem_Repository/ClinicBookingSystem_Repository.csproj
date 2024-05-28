@@ -13,9 +13,6 @@
 
   <ItemGroup>
     <Folder Include="IRepositories\" />
-    <Folder Include="Models\DTOs\" />
-    <Folder Include="Models\ResponseModel\" />
-    <Folder Include="Models\RequestModel\" />
     <Folder Include="Repositories\" />
   </ItemGroup>
 

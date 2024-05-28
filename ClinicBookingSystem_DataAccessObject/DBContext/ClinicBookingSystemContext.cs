@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ClinicBookingSystem_BusinessObject.DBContext
+namespace ClinicBookingSystem_DataAcessObject.DBContext
 {
     public class ClinicBookingSystemContext : DbContext
     {

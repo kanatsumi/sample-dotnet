@@ -1,4 +1,4 @@
-using ClinicBookingSystem_BusinessObject.DBContext;
+using ClinicBookingSystem_DataAcessObject.DBContext;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

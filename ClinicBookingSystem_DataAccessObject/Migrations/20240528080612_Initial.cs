@@ -3,10 +3,10 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace ClinicBookingSystem_BusinessObject.Migrations
+namespace ClinicBookingSystem_DataAccessObject.Migrations
 {
     /// <inheritdoc />
-    public partial class a : Migration
+    public partial class Initial : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
