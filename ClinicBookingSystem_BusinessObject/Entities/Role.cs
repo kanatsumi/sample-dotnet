@@ -15,5 +15,8 @@ namespace ClinicBookingSystem_BusinessObject.Entities
         public string Description { get; set; }
         //User
         public ICollection<User> Users { get; set; }
+        //Claim
+        public ICollection<Claim> Claims { get; set; }
+        
     }
 }

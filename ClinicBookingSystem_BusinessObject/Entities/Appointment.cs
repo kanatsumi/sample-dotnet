@@ -23,4 +23,6 @@ public class Appointment : BaseEntities
     public ICollection<User> Users { get; set; }
     //Service
     public ICollection<Service> Services { get; set; }
+    //Slot
+    public ICollection<Slot> Slots { get; set; }
 }

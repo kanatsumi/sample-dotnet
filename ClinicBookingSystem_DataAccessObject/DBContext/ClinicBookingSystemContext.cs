@@ -18,6 +18,11 @@ namespace ClinicBookingSystem_DataAcessObject.DBContext
         public DbSet<Service> Services => Set<Service>();
         public DbSet<Specification> Specifications => Set<Specification>();
         public DbSet<Salary> Salaries => Set<Salary>();
+        public DbSet<Clinic> Clinics => Set<Clinic>();
+        public DbSet<Relative> Relatives => Set<Relative>();
+        public DbSet<Claim> Claims => Set<Claim>();
+        public DbSet<Slot> Slots => Set<Slot>();
+        public DbSet<Application> Applications => Set<Application>();
         
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

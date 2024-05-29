@@ -48,5 +48,15 @@ namespace ClinicBookingSystem_BusinessObject.Entities
         public Salary Salary { get; set; }
         //Specification
         public ICollection<Specification> Specifications { get; set; }
+        //Clinic
+        public ICollection<Clinic> Clinics { get; set; }
+        
+        //Relative
+        public RelativeType RelativeType { get; set; }
+        public ICollection<Relative> Relatives { get; set; }
+        //Claim
+        public ICollection<Claim> Claims { get; set; }
+        //Apllication
+        public ICollection<Application> Applications { get; set; }
     }
 }
